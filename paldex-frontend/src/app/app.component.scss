@@ -1,7 +1,16 @@
 $amarelo-mostarda-1: #FFB90F;
+$azul-2: #87CEEB;
 
 .c-menu {
     background-color: $amarelo-mostarda-1;
     border-radius: 10px;
     padding: 12px 19px;
+    margin-bottom: 17px;
+}
+
+.c-aviso {
+    background-color: $azul-2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
 }
