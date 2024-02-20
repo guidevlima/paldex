@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'FiraSans-Regular';
+    src: url('./assets/fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
 $bg-color: #F5F5F5;
 
 $azul-1: #87CEFA;
@@ -11,4 +16,5 @@ $main-black: #000;
 
 body {
     background-color: $bg-color;
+    font-family: 'FiraSans-Regular', sans-serif;
 }
